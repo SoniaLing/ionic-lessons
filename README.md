@@ -5,7 +5,7 @@
 ##ionic 概述
 >ionic是一个强大的混合式/hybrid app移动开发框架。可以帮助您使用 Web 技术，比如 HTML、 CSS 和Javascript 构建接近原生体验的移动应用程序。目前已发布正式版本。基于Cordova，在Github有一堆原生的插件模块，能调用相机，指纹解锁等 [戳这查看ngcordova63＋插件](http://ngcordova.com)。
 
-##onicframe包括三个部分：
+##ionic包括三个部分：
 
 CLI（命令行工具集）
 >ionic-cli简化了hybrid app的开发、构造和调试运行。工具基于Cordova，gulp，可选sass。  
