@@ -24,8 +24,10 @@ JavaScript框架
    	*   [nodejs / ionic / cordova / gulp 安装](lesson1/lesson1.md)
    	
 *   css框架学习
-
+	* 自己看看就好了 [戳这里看官方css api](http://ionicframework.com/docs/components/)，注意一下这个[striped-style-tabs](http://ionicframework.com/docs/components/#striped-style-tabs)高级货就好了。
 *   JavaScript框架学习
+	*  [ionic js框架之AngularJs指令／路由](lesson2/lesson2.md) 
+	*  hybird app 基本布局
    
 *   [开发中遇到的一些问题](question/question.md) 
 
