@@ -22,6 +22,11 @@
 >不行就买个vpn
 
 4.列表页有tabs，内容页不需要。（隐藏tabs的方式）
+>解决方案一
+
+[戳这里看](http://forum.ionicframework.com/t/how-to-hide-the-ion-tabs-in-specified-page/14208/2) ps:官方团队给的评价是`Nice solution`
+
+>解决方案二
 
 	1.tabs 增加ng-class
 	<ion-tabs ng-class="{'tabs-item-hide': $root.hideTabs}">tabs</ion-tabs>
@@ -46,6 +51,10 @@
 	3.内容页面加入指令 hide-tabs=true
 	<ion-view  hide-tabs=true><!-- view content --></ion-tabs>
 	//方式有很多种，其实都不是很完美，会明显少一块的感觉。
+	
+
+	
 5.ion-view 上使用了 hide-nav-bar="true" 切换视图的时候，会有margintTop负值／抖动现象。
 >假设view1 转入 view2，view2上有hide-nav-bar="true"。    
 >view1 中`ion-content`需要一个top值 `$bar-height`。框架在切换视图时，如果第二个视图无header，直接在顶上加上了`hide`，暴力啊。 版本`v1.0.0-rc.4 `如此，它更新的那么勤快，其他版本么看。
+
